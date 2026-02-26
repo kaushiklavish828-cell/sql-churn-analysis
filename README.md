@@ -6,8 +6,13 @@ Analyze user retention and churn patterns to identify which customer segments ar
 ## Key Questions Answered
 - How many total users are there?
 - What is the overall churn rate?
-- Which plan (monthly/yearly) has the highest churn?
-- How are monthly signups trending over time?
+- Which plan has the highest churn?
+- Do senior citizens churn more?
+- What is the average tenure of churned vs active users?
+- Which customers are high risk?
+- What is the revenue impact of churn?
+- Which contract type has highest churn rate?
+- What are the top reasons for churn?
 
 ## Tools Used
 - SQL (SQLite)
@@ -16,11 +21,13 @@ Analyze user retention and churn patterns to identify which customer segments ar
 
 ## Key Insights
 - Calculated overall churn rate across all users
-- Identified plan-wise churn to find high-risk segments
-- Tracked monthly signup trends to understand user growth
+- Identified plan-wise and contract-wise churn segments
+- Found high-risk customers with short tenure on monthly plans
+- Analyzed revenue loss due to churned customers
+- Tracked senior citizen churn patterns
 
 ## Files
 - `churn_analysis.sql` - All SQL queries used in this analysis
 
 ## About
-This project was built as part of my Data Analyst portfolio to demonstrate SQL skills including aggregation, grouping, subqueries, and date functions.
+This project was built as part of my Data Analyst portfolio to demonstrate SQL skills including aggregation, grouping, subqueries, CASE statements, and date functions.
